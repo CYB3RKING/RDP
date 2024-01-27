@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/58414694/149808540-5cfe38ee-a88b-4e8b-a1e9-2a5a1fda7f1d.png)
+![image](https://github.com/CYB3RKING/RDP/blob/main/Screenshot%202024-01-16%20204608.png)
 ### GitHub Actions: Windows Ngrok RDP Workflow
 
 🖥️ Automate Windows Remote Desktop setup with ngrok using GitHub Actions!
