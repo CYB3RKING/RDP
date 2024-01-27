@@ -62,18 +62,14 @@ jobs:
 
 Feel free to contribute, share, or customize for your Windows projects! Happy coding! 🚀
 
-## owner
-👇👇click here to contact Owner
-[![Owner](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/SH4D0W_X)
-
-💝💝💝💝💝💝💝💝💝💝💝💝💝💝
-
+## SOCIAL MEDIA :
+[![Github](https://img.shields.io/badge/Github-fikrado-yellow?style=for-the-badge&logo=github)](https://github.com/CYB3R-KING)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/CYB3R_KING)
+[![CHANNEL](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/CYB3R_KING)
+<img height="500" src=" ">
 ## Contributing
 
 Feel free to contribute to the project by opening issues, providing feedback, or submitting pull requests. Your contributions are valuable!
 
-## Credits
-
-This project is inspired by [https://t.me/CYB3R_KING].
 
 ###                                    THANK YOU
