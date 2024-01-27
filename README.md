@@ -7,7 +7,7 @@
 ### RDP code
 
 ```
-name: CI
+name: Window 10
 
 on: [push, workflow_dispatch]
 
@@ -16,6 +16,7 @@ jobs:
 
     runs-on: windows-latest
     timeout-minutes: 9999
+
 
     steps:
     - name: Download
@@ -30,10 +31,9 @@ jobs:
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
     - run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
-    - run: Set-LocalUser -Name "username" -Password (ConvertTo-SecureString -AsPlainText "password" -Force)
+    - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "password" -Force)
     - name: Create Tunnel
-      run: .\ngrok\ngrok.exe tcp 7777
-
+      run: .\ngrok\ngrok.exe tcp 3389
 ```
 ###
 
