@@ -30,7 +30,7 @@ jobs:
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
     - run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
-    - run: Set-LocalUser -Name "admin" -Password (ConvertTo-SecureString -AsPlainText "admin" -Force)
+    - run: Set-LocalUser -Name "username" -Password (ConvertTo-SecureString -AsPlainText "password" -Force)
     - name: Create Tunnel
       run: .\ngrok\ngrok.exe tcp 7777
 
