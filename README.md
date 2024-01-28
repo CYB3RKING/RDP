@@ -31,12 +31,15 @@ jobs:
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
     - run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
-    - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "password" -Force)
+    - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "@cyb3rking" -Force)
     - name: Create Tunnel
       run: .\ngrok\ngrok.exe tcp 3389
 ```
 ###
+### Default username & password
+username - runneradmin
 
+password - @cyb3rking
 #### Features:
 - **Secure Remote Desktop:** Establish a secure tunnel for remote desktop access to a Windows environment.
 - **Ngrok Integration:** Utilize ngrok to create secure tunnels to localhost.
