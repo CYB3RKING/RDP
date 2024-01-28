@@ -3,7 +3,12 @@
 
 🖥️ Automate Windows Remote Desktop setup with ngrok using GitHub Actions!
 
+### Setup Video
+#### Video Tutorial 
 
+[![Video Tutorial](https://github.com/CYB3RKING/RDP/blob/main/windows-10-14328-580797c43df78cbc285096a1.png)](https://github.com/CYB3RKING/RDP/blob/main/28.01.2024_11.53.59_REC.mp4raw=true)
+
+### Follow the steps and make own RDP
 ### RDP code
 
 ```
