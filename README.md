@@ -5,7 +5,7 @@
 
 ### Setup Video
 
-
+https://youtu.be/zrfDKT_2uuQ?si=PRNn4ZvCkfEFM-lf
 
 ### Follow the steps and make own RDP
 
